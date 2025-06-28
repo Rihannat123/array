@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <p> multiple every element that is there is an array</p>
+            <p id="detail"></p>
+            <script>
+                var numbers=[10,20,30,40,50];
+                function myfunction(num){
+                    return num*10;
+                }
+                var newarray=numbers.map(myfunction);
+                document.getElementById("detail").innerHTML=newarray;
+            </script>
+        </body>
+    </head>
+</html>
