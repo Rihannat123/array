@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <heead>
+        <body>
+            <h2> javascript array wrong</h2>
+            <button onclick="ascending()">ascending order</button>
+            <button onclick="deascending()">deascending order</button>
+            <p id="detail"></p>
+            <script>
+             var points=[400,12,57,24,45,13,]
+             document.getElementById("detail").innerHTML=points;
+             function ascending(){
+                points.sort(function(a,b) { return a-b });
+                 document.getElementById("detail").innerHTML = points;
+             }
+                 function deascending() {
+                     points. sort(function (a, b) { return b - a });
+                     document.getElementById("detail").innerHTML = points;
+             }
+               document.getElementById("detail").innerHTML = points;
+            </script>
+        </body>
+    </heead>
+</html>
